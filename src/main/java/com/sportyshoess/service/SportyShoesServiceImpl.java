@@ -40,7 +40,7 @@ public class SportyShoesServiceImpl implements SportyShoesService {
 		shoesRepo.save(s3);
 		shoesRepo.save(s4);
 
-		Date date = new Date(0);
+		Date date = new Date();
 		PurchaseReport pr1 = new PurchaseReport(1, "user_1", "Running", date, "adidas_runner:5,nike_airmax:10");
 		PurchaseReport pr2 = new PurchaseReport(2, "user_2", "Cricket", date, "adidas_cricket:5,nike_cricket:10");
 		PurchaseReport pr3 = new PurchaseReport(3, "user_3", "Basketball", date, "adidas_basketball:5,nike_basketball:10");
